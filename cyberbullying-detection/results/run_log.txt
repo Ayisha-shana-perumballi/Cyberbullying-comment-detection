@@ -1,0 +1,13 @@
+Naive Bayes {'accuracy': 0.9852, 'precision': 0.9758, 'recall': 1.0, 'f1': 0.9878, 'cv_f1_mean': np.float64(0.9906)}
+Logistic Regression {'accuracy': 0.9987, 'precision': 0.9978, 'recall': 1.0, 'f1': 0.9989, 'cv_f1_mean': np.float64(0.9971)}
+Linear SVM {'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0, 'f1': 1.0, 'cv_f1_mean': np.float64(0.9875)}
+Best: Linear SVM
+              precision    recall  f1-score   support
+
+Not bullying       1.00      1.00      1.00       301
+    Bullying       1.00      1.00      1.00       444
+
+    accuracy                           1.00       745
+   macro avg       1.00      1.00      1.00       745
+weighted avg       1.00      1.00      1.00       745
+
